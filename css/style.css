@@ -1,0 +1,9 @@
+#mountain_section {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+}
