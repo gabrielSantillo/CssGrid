@@ -26,3 +26,14 @@
     width: 50%;
     height: 50%;
 }
+
+#img_section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   
+}
+
+.same_img {
+    width: 500px;
+    height: 375px;
+}
