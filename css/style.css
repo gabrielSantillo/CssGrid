@@ -1,9 +1,24 @@
+#header_container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    height: 50px;
+}
+
+#real_madrid_img {
+    justify-items: center;
+    align-items: start;
+    width: 40px;
+    height: 40px;
+}
+
+
+
 #mountain_section {
     display: grid;
     grid-auto-flow: column;
 }
 
-img {
+#mountain_img {
     width: 50%;
     height: 50%;
 }
