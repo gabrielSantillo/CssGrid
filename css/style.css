@@ -1,17 +1,21 @@
 #header_container {
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-auto-flow: column;
     height: 50px;
+    align-items: center;
+    justify-items: start;
+    background-color: green;
 }
 
 #real_madrid_img {
-    justify-items: center;
-    align-items: start;
+    object-fit: cover;
     width: 40px;
     height: 40px;
 }
 
-
+#nav_bar {
+    justify-self: end;
+}
 
 #mountain_section {
     display: grid;
